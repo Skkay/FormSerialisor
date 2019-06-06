@@ -1,6 +1,6 @@
 # FormSerialisor
-
-Original author : https://www.codeproject.com/Articles/86503/Saving-the-state-serializing-a-Windows-Form
+Saving the state (serializing) a Windows Form.&nbsp;
+**Original author** : https://www.codeproject.com/Articles/86503/Saving-the-state-serializing-a-Windows-Form
 
 &nbsp;
 ### How to use :
@@ -19,4 +19,8 @@ FormSerialisor.Serialise(this, Application.StartupPath + @"\serialise.xml");
 FormSerialisor.Deserialise(this, Application.StartupPath + @"\serialise.xml");
 ```
 
-More info on [original page](https://www.codeproject.com/Articles/86503/Saving-the-state-serializing-a-Windows-Form)
+More info on [original page](https://www.codeproject.com/Articles/86503/Saving-the-state-serializing-a-Windows-Form).
+
+&nbsp;
+### Adding :
+*DateTimePicker* serialisor and deserialisor.
